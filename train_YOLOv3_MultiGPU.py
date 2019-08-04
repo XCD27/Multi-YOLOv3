@@ -32,7 +32,7 @@ GPUs = 6
 def _main():
     annotation_path = 'dataset/train.txt'
     log_dir = 'logs/{}-MultiGPU'.format(BACKBONE)
-    classes_path = 'dataset/objectclasses.txt'
+    classes_path = 'dataset/object_classes.txt'
     anchors_path = 'dataset/yolo_anchors.txt'
 
     class_names = get_classes(classes_path)
